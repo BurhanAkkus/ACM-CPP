@@ -4,7 +4,7 @@
     {
       "label": "Build C++23 (Release)",
       "type": "shell",
-      "command": "C:/msys64/mingw64/bin/g++.exe",
+      "command": "/usr/bin/g++",
       "args": [
         "-std=gnu++23",
         "-O2",
@@ -14,7 +14,7 @@
         "-Wconversion",
         "${file}",
         "-o",
-        "${fileDirname}/a.exe"
+        "${fileDirname}/a.out"
       ],
       "group": {
         "kind": "build",
@@ -27,7 +27,7 @@
     {
       "label": "Build C++23 (Debug)",
       "type": "shell",
-      "command": "C:/msys64/mingw64/bin/g++.exe",
+      "command": "/usr/bin/g++",
       "args": [
         "-std=gnu++23",
         "-g",
@@ -36,7 +36,7 @@
         "-Wextra",
         "${file}",
         "-o",
-        "${fileDirname}/a.exe"
+        "${fileDirname}/a.out"
       ],
       "group": "build",
       "problemMatcher": [

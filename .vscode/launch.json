@@ -2,17 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug C++23 (gdb, MinGW64)",
+      "name": "Debug C++23 (gdb)",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}/a.exe",
+      "program": "${fileDirname}/a.out",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],
-      "externalConsole": true,
+      "externalConsole": false,
       "MIMode": "gdb",
-      "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+      "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "Build C++23 (Debug)",
 
       "setupCommands": [
