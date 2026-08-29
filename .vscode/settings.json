@@ -3,5 +3,6 @@
         "array": "cpp",
         "iosfwd": "cpp",
         "limits": "cpp"
-    }
+    },
+    "cph.language.cpp.Args": "-std=gnu++23 -O2"
 }
