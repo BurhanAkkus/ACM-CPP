@@ -7,6 +7,7 @@
       "command": "/usr/bin/g++",
       "args": [
         "-std=gnu++23",
+        "-I/home/buri/ac-library",
         "-O2",
         "-Wall",
         "-Wextra",
@@ -30,6 +31,7 @@
       "command": "/usr/bin/g++",
       "args": [
         "-std=gnu++23",
+        "-I/home/buri/ac-library",
         "-g",
         "-O0",
         "-Wall",
